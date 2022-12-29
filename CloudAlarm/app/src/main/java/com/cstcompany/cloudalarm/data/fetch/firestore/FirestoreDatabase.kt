@@ -4,7 +4,7 @@ import android.util.Log
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
-import hu.bme.aut.android.cloudalarm.TAG
+import com.cstcompany.cloudalarm.TAG
 import com.cstcompany.cloudalarm.data.Alarm
 import com.cstcompany.cloudalarm.data.fetch.AlarmDatabase
 import kotlinx.coroutines.tasks.await

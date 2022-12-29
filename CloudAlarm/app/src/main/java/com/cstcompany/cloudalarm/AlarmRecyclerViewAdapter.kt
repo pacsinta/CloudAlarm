@@ -1,4 +1,4 @@
-package hu.bme.aut.android.cloudalarm
+package com.cstcompany.cloudalarm
 
 import android.annotation.SuppressLint
 import android.app.AlarmManager
@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.timepicker.MaterialTimePicker
 import com.google.android.material.timepicker.TimeFormat
 import com.cstcompany.cloudalarm.data.Alarm
-import hu.bme.aut.android.cloudalarm.databinding.AlarmViewBinding
+import com.cstcompany.cloudalarm.databinding.AlarmViewBinding
 
 
 class AlarmRecyclerViewAdapter(dataSet: List<Alarm>, fragmentManager: FragmentManager, viewModel: MainViewModel, alarmManager: AlarmManager):

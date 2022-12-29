@@ -1,4 +1,4 @@
-package hu.bme.aut.android.cloudalarm.login
+package com.cstcompany.cloudalarm.login
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

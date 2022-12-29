@@ -1,4 +1,4 @@
-package hu.bme.aut.android.cloudalarm.login
+package com.cstcompany.cloudalarm.login
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,8 +8,8 @@ import androidx.lifecycle.ViewModelProvider
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import hu.bme.aut.android.cloudalarm.MainActivity
-import hu.bme.aut.android.cloudalarm.databinding.ActivityLoginBinding
+import com.cstcompany.cloudalarm.MainActivity
+import com.cstcompany.cloudalarm.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth

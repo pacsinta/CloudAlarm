@@ -1,4 +1,4 @@
-package hu.bme.aut.android.cloudalarm
+package com.cstcompany.cloudalarm
 
 import android.app.AlarmManager
 import android.content.Context
@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.timepicker.MaterialTimePicker
 import com.google.android.material.timepicker.TimeFormat
 import com.cstcompany.cloudalarm.data.Alarm
-import hu.bme.aut.android.cloudalarm.databinding.ActivityMainBinding
+import com.cstcompany.cloudalarm.databinding.ActivityMainBinding
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

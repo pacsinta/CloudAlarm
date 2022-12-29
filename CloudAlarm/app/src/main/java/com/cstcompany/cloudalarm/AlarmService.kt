@@ -1,10 +1,7 @@
-package hu.bme.aut.android.cloudalarm
+package com.cstcompany.cloudalarm
 
-import android.app.NotificationChannel
-import android.app.NotificationManager
 import android.app.Service
 import android.content.Intent
-import android.os.Build
 import android.os.IBinder
 
 class AlarmService:Service() {

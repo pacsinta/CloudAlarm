@@ -1,4 +1,4 @@
-package hu.bme.aut.android.cloudalarm.login
+package com.cstcompany.cloudalarm.login
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,8 +11,8 @@ import androidx.fragment.app.Fragment
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import hu.bme.aut.android.cloudalarm.MainActivity
-import hu.bme.aut.android.cloudalarm.databinding.FragmentLoginBinding
+import com.cstcompany.cloudalarm.MainActivity
+import com.cstcompany.cloudalarm.databinding.FragmentLoginBinding
 
 class RegisterFragment(viewModel: LoginViewModel) : Fragment() {
     private var _binding: FragmentLoginBinding? = null

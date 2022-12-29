@@ -1,17 +1,15 @@
-package hu.bme.aut.android.cloudalarm
+package com.cstcompany.cloudalarm
 
 import android.app.AlarmManager
 import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.provider.Settings
-import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
-import hu.bme.aut.android.cloudalarm.databinding.RequestPermissionBinding
+import com.cstcompany.cloudalarm.databinding.RequestPermissionBinding
 
 class PermissionActivity:AppCompatActivity() {
     lateinit var binding: RequestPermissionBinding

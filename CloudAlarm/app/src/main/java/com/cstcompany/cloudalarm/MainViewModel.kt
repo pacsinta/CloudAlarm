@@ -1,4 +1,4 @@
-package hu.bme.aut.android.cloudalarm
+package com.cstcompany.cloudalarm
 
 import android.app.AlarmManager
 import android.app.Application
@@ -9,7 +9,6 @@ import android.icu.util.Calendar
 import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.cstcompany.cloudalarm.AlarmReceiver
 import com.cstcompany.cloudalarm.data.Alarm
 import com.cstcompany.cloudalarm.data.fetch.AlarmDatabase
 import com.cstcompany.cloudalarm.data.fetch.AlarmDatabaseImp

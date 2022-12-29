@@ -1,4 +1,4 @@
-package hu.bme.aut.android.cloudalarm
+package com.cstcompany.cloudalarm
 
 import androidx.fragment.app.DialogFragment
 

@@ -3,7 +3,6 @@ package com.cstcompany.cloudalarm
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import hu.bme.aut.android.cloudalarm.AlarmActivity
 
 
 class AlarmReceiver : BroadcastReceiver(){

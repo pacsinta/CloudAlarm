@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">CloudAlarm</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="add_new_alarm">Add new alarm</string>
+    <string name="cloud_alarm">Cloud Alarm</string>
+    <string name="alarm_settings">Alarm Settings</string>
+    <string name="monday">M</string>
+    <string name="tuesday">T</string>
+    <string name="wednesday">W</string>
+    <string name="thursday">Th</string>
+    <string name="friday">F</string>
+    <string name="saturday">S</string>
+    <string name="sunday">Su</string>
+    <string name="good_morning">Good morning</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="this_app_needs_permission_to_schedule_alarms_please_grant_it_permission_to_continue">This app needs permission to schedule alarms. Please grant it permission to continue.</string>
 </resources>
